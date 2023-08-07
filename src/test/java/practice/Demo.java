@@ -13,5 +13,6 @@ public class Demo {
 		driver.get("https://whizitglobal.com/");
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		 js.executeScript("alert('hello world');");
+		 System.out.println("hello");
 	}
 }
